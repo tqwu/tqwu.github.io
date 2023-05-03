@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Except
+!.gitignore
+!package.json
+!tsconfig.json
+!README.md
+!/src/
+!/src/**
+!/public/
+!/public/**
