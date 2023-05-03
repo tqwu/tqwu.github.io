@@ -1,7 +1,13 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "name": "portfolio-teresawu",
+  "version": "1.0.0",
+  "description": "Teresa Wu's Portfolio Website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tqwu/tqwu.github.io.git"
+  },
+  "author": "Teresa Wu <tqwu@ucsc.edu>",
+  "homepage": "https://tqwu.github.io/",
   "dependencies": {
     "@mui/joy": "*",    
     "@testing-library/jest-dom": "^5.16.5",
@@ -23,6 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
